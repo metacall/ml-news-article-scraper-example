@@ -50,7 +50,7 @@ Script (app.js) loaded correctly
 After deploying the application into the FaaS https://dashboard.metacall.io, it can be accessed with (change `<your_alias>` by the alias you used to sign up):
 
 ```sh
-curl -X POST https://api.metacall.io/<your_alias>/ml-news-article-scraper-example/v1/call/links -X POST --data '{ "url": "https://www.nytimes.com/2021/03/23/business/teslas-autopilot-safety-investigations.html" }'
+curl -X POST https://api.metacall.io/<your_alias>/ml-news-article-scraper-example/v1/call/similarNews -X POST --data '{ "url": "https://www.nytimes.com/2021/03/23/business/teslas-autopilot-safety-investigations.html" }'
 ```
 ## LICENSE 
 [Apache License 2.0](./LICENSE)
